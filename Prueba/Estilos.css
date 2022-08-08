@@ -1,0 +1,41 @@
+* {
+    color: rgb(246,246,246);
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(140,140,140);
+  font-size: 1rem;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 2rem 2.8rem;
+}
+
+#texto {
+    background: rgba(80,80,80,0.4);
+    border: rgb(20,20,20) solid 1px;
+    padding: 0.4rem 0.8rem;
+}
+
+#texto:hover {
+    background: rgb(220,220,220);
+    border: rgb(1,1,1) solid 1px;
+    color: rgba(20,20,20);
+}
+
+#boton {
+    background: rgba(40,40,40, 0.2);
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.4rem 0.8rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+#lista {
+    font-size: 1rem;
+    border: rgb(10,10,10) solid 2px;
+    padding: 2rem 0;
+}
