@@ -79,14 +79,15 @@ body {
 .id button {
     background: none;
     border: none;
+    color: #fff;
 }
 .id p {
-    font-size: 1.4rem;
+    font-size: 1.26rem;
 }
 
 .listaRespuestas {
-    padding: 0.2rem 1.75rem 0.4rem 1.75rem;
+    padding: 0.88rem 1.8rem 0.88rem 1.8rem;
 }
 .listaRespuestas p {
-    font-size: 1.2rem;
+    font-size: 1.06rem;
 }
