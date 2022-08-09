@@ -42,7 +42,6 @@ body {
 }
 
 #lista {
-    font-size: 1.2rem;
     border: rgb(50,50,50) solid 2px;
     background-color: rgb(160,160,160);
     border-radius: 0.75rem;
@@ -52,10 +51,23 @@ body {
     padding: 1.2rem 1.6rem;
 }
 .id {
-    margin-top: 1.2rem;
+    position: relative;
+    padding: 1.8rem 0;
+}
+.id::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    height: 1px;
+    background: #fff;
 }
 .id:first-child {
-    margin-top: 0rem;
+    padding-top:  0;
+}
+.id:first-child::before {
+    display: none;
 }
 .id input {
     background: none;
@@ -64,7 +76,17 @@ body {
     padding: 0.4rem 0.8rem;
     margin-right: 1rem;
 }
+.id button {
+    background: none;
+    border: none;
+}
+.id p {
+    font-size: 1.4rem;
+}
 
 .listaRespuestas {
     padding: 0.2rem 1.75rem 0.4rem 1.75rem;
+}
+.listaRespuestas p {
+    font-size: 1.2rem;
 }
